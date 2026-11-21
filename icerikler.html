@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="İstanbul'da beş sakin şehir kaçamağını başlıklarına göre bul.">
+  <title>Keşifler — Arka Sokak</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Arka Sokak ana sayfa"><span class="brand-mark">a.</span><span>arka sokak</span></a>
+    <nav class="nav" aria-label="Ana menü"><a href="index.html">Ana Sayfa</a><a class="active" aria-current="page" href="icerikler.html">Keşifler</a><a href="hakkinda.html">Hakkında</a></nav>
+    <a class="header-note" href="index.html"><span class="status-dot"></span> İstanbul'dan notlar</a>
+  </header>
+  <main class="content-page">
+    <section class="content-hero"><div class="content-hero-inner"><p class="eyebrow"><span class="eyebrow-line"></span> SAHİLDE, AVLULARDA, ARKA SOKAKLARDA</p><p class="display-kicker">İSTANBUL'U YAVAŞTAN KEŞFET / NO. 01</p><h1>Beş küçük<br><em>sapak.</em></h1><p>Şehirden kaçmak için şehirden çıkman gerekmiyor. Bir sokağı değiştirmen yeter.</p><div class="content-meta"><span>✳ 05 YEREL NOT</span><span>YÜRÜYEREK KEŞFET</span></div></div><div class="content-hero-image"><img src="assets/balat.jpg" alt="Balat'ın renkli tarihi sokakları"><span class="image-credit">FENER—BALAT / 01</span></div></section>
+    <section class="discover section-wrap"><div class="search-topline"><div><p class="eyebrow">NOT DEFTERİNDE ARA</p><h2>Bugün nereye <em>uğrasak?</em></h2></div><span class="search-issue">İSTANBUL / 05 DURAK</span></div>
+      <div class="search-panel"><label class="search-label" for="title-search"><span>01</span> BAŞLIĞA GÖRE ARA</label><div class="search-input-wrap"><span aria-hidden="true">⌕</span><input id="title-search" type="search" placeholder="Bir kelime yaz… örn. avlu" autocomplete="off"><button class="clear-search" id="clear-search" type="button" aria-label="Aramayı temizle">×</button></div><p class="result-count" id="result-count" role="status" aria-live="polite">5 keşif</p></div>
+      <div class="discovery-grid" id="discovery-list">
+        <article class="discovery-card"><button class="discovery-photo" type="button" data-discovery-open><img src="assets/courtyard.jpg" alt="Tarihi İstanbul avlusunun kemerli taş mimarisi" loading="lazy"><span class="photo-number">01</span><span class="photo-credit">ZÜLFÜ DEMİR / PEXELS</span><span class="photo-location">FENER · BALAT</span></button><div class="discovery-body"><p class="card-category">TAŞ DUVARLARIN ARASINDA <span>· 4 DK</span></p><h2>Bir avluda soluklan</h2><p>Renkli cephelerin arasından içeri çekil. Tarihi kemerlerin ve taş duvarların gölgesinde şehrin sesi bir anda uzaklaşır.</p><div class="card-fact"><span>YAKINDA</span><strong>Fener · Balat</strong><span class="card-arrow">↗</span></div></div></article>
+        <article class="discovery-card"><button class="discovery-photo" type="button" data-discovery-open><img src="assets/stairs.jpg" alt="Karaköy'de eski bir taş merdiven" loading="lazy"><span class="photo-number">02</span><span class="photo-credit">ÖMER GÜLEN / PEXELS</span><span class="photo-location">KARAKÖY · YOKUŞLAR</span></button><div class="discovery-body"><p class="card-category">ŞEHİRDE YUKARI <span>· 3 DK</span></p><h2>Merdivenlerin anlattığı</h2><p>Bir sokağın diğerine bağlandığı merdivenlerde dur. Her basamak, Karaköy'ün üst üste birikmiş hikâyelerinden birini açar.</p><div class="card-fact"><span>YAKINDA</span><strong>Kamondo Merdivenleri</strong><span class="card-arrow">↗</span></div></div></article>
+        <article class="discovery-card"><button class="discovery-photo" type="button" data-discovery-open><img src="assets/ferry.jpg" alt="Boğaz üzerinde yol alan şehir vapuru ve martılar" loading="lazy"><span class="photo-number">03</span><span class="photo-credit">FERHAT KOCAKAYA / PEXELS</span><span class="photo-location">ÜSKÜDAR · KIYI</span></button><div class="discovery-body"><p class="card-category">SU KENARINDA <span>· 2 DK</span></p><h2>Denize karşı on dakika</h2><p>Kıyıda uygun bir basamak bul. Vapurların gelişini izle, martı seslerini say ve takvime kısa bir ara ver.</p><div class="card-fact"><span>YAKINDA</span><strong>Salacak sahil yolu</strong><span class="card-arrow">↗</span></div></div></article>
+        <article class="discovery-card"><button class="discovery-photo" type="button" data-discovery-open><img src="assets/bookshop.jpg" alt="İstanbul'da sıcak ışıklı, raflarla dolu kitapçı" loading="lazy"><span class="photo-number">04</span><span class="photo-credit">ZEYNEP LADİN ÜSTÜNDAĞ / PEXELS</span><span class="photo-location">BEYOĞLU · RAF ARASI</span></button><div class="discovery-body"><p class="card-category">KENDİNE BİR SAYFA <span>· 3 DK</span></p><h2>Bir kitapçıya sığın</h2><p>İstiklal'in telaşından eski bir kitapçının raflarına karış. Aramaya gelmediğin bir kitabı bulmak, günün tesadüfü olsun.</p><div class="card-fact"><span>YAKINDA</span><strong>Çukurcuma · Cihangir</strong><span class="card-arrow">↗</span></div></div></article>
+        <article class="discovery-card"><button class="discovery-photo" type="button" data-discovery-open><img src="assets/park.jpg" alt="İstanbul'da ağaçlarla çevrili sakin, yeşil bir park" loading="lazy"><span class="photo-number">05</span><span class="photo-credit">ONUR / PEXELS</span><span class="photo-location">KORU · GÖLGEDE</span></button><div class="discovery-body"><p class="card-category">YEŞİL BİR NEFES <span>· 4 DK</span></p><h2>Ağaçların altında kaybol</h2><p>Koruların gölgeli yollarında plansızca yürü. Bir bank, bir kuş sesi ve yukarıdan süzülen ışık; programın bu kadar.</p><div class="card-fact"><span>YAKINDA</span><strong>Fethi Paşa Korusu</strong><span class="card-arrow">↗</span></div></div></article>
+        <a class="closing-card" href="hakkinda.html"><span class="closing-mark">✳</span><span class="closing-overline">KÜÇÜK BİR NOT</span><strong>Yavaşlamak<br>da bir plandır.</strong><span class="closing-link">HİKÂYESİNİ OKU ↗</span></a>
+      </div>
+      <p class="empty-state" id="empty-state" hidden>Bu başlıkta bir keşif bulamadık. Başka bir kelime dene. <span aria-hidden="true">✳</span></p><div class="search-tip"><span>i</span> Arama yalnızca keşif başlıklarında yapılır. Bulmak istediğin kelimeyi yazman yeterli.</div>
+    </section>
+  <dialog class="detail-dialog" id="discovery-dialog" aria-labelledby="detail-title">
+    <div class="detail-dialog-inner">
+      <button class="detail-dialog-close" type="button" aria-label="İçeriği kapat">×</button>
+      <div class="detail-dialog-media"><img id="detail-image" src="" alt=""></div>
+      <div class="detail-dialog-copy">
+        <p class="eyebrow" id="detail-category"></p>
+        <h2 id="detail-title"></h2>
+        <p class="detail-dialog-text" id="detail-description"></p>
+        <p class="detail-dialog-extra" id="detail-extra"></p>
+        <p class="detail-dialog-place"><span>YAKINDA</span><strong id="detail-place"></strong></p>
+        <p class="detail-dialog-credit" id="detail-credit"></p>
+      </div>
+    </div>
+  </dialog>  </main>  <footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">a.</span><span>arka sokak</span></a><span>İstanbul'u başka türlü görmek için.</span><a href="hakkinda.html">Proje hakkında ↗</a></footer>
+</body>
+</html>
+
